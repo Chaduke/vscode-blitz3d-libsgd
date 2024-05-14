@@ -1,13 +1,15 @@
-# Language support for Blitz3D
+# Language support for Blitz3D and LibSGD
 
 This extension enables language support for the BlitzBasic language and extends the usage of the Blitz3D program and its `blitzcc` compiler.
-Standalone parsing and type checking is implemented based on [the original Blitz3D source code](https://github.com/blitz-research/blitz3d) which is released under the zlib/libpng license by Blitz Research Ltd.
+Standalone parsing and type checking is implemented based on [the original Blitz3D source code](https://github.com/blitz-research/blitz3d) 
+along with the new functionality provided with [LibSGD ](https://github.com/blitz-research/LibSGD)
+which is released under the zlib/libpng license by Blitz Research Ltd.
 
-> Note: This is a pre-release version. You might experience more bugs than usual.
+> Development on this version has been started by Chaduke on 2024-05-14
 
 ## Release Notes
 
-> To see all the changes, check the [changelog](CHANGELOG.md) or the [GitHub repository](https://github.com/denesfilotas/vscode-blitz3d).
+> To see all the changes, check the [changelog](CHANGELOG.md) or the [GitHub repository](https://github.com/chaduke/vscode-blitz3d-libsgd).
 
 - Bugfixes regarding includes (by [@Aryan807](https://github.com/Aryan807))
 - BBDoc support in userlibs
